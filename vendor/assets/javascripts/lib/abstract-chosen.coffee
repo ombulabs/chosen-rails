@@ -292,7 +292,7 @@ class AbstractChosen
        /BlackBerry/i.test(window.navigator.userAgent) or
        /BB10/i.test(window.navigator.userAgent) or
        /Android.*Mobile/i.test(window.navigator.userAgent)
-      return false
+      return true
     return true
 
   @default_multiple_text: "Select Some Options"
